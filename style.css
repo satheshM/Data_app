@@ -1,0 +1,168 @@
+body {
+    width: 110%;
+    height: 110%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: url('https://www.hdwallpapers.in/download/wall_board_lights_black_background_4k_hd_black_background-1280x720.jpg') no-repeat left center / cover;
+    }
+
+        form {
+            top:300px;
+            background-color: #767676;
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow:
+            inset 0 -3em 3em rgba(46, 47, 49, 0.3),
+            0 0 0 2px white,
+            0.3em 0.3em 1em rgb(102, 102, 237);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+           
+        }
+        input[type="text"]:focus,
+        input[type="password"]:focus {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow:
+            inset 0 -3em 3em rgb(255, 255, 255),
+            0 0 0 2px white,
+            0.3em 0.3em 1em rgba(104, 215, 255, 0.95);
+        }
+
+        input[type="submit"] {
+            box-shadow:
+        inset 0 -3em 3em hsla(213, 100%, 89%, 0.3),
+        0 0 0 2px white,
+        0.3em 0.3em 1em #ff46ac99;
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+            box-shadow:
+            inset 0 -3em 3em rgba(222, 67, 199, 0.976),
+            0 0 0 2px white,
+            0.3em 0.3em 1em rgba(196, 82, 206, 0.963);
+        }
+        
+        input[type="submit"]:active{
+            background-color: rgba(132, 29, 117, 0.753);
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+        
+
+        
+        .mobile-container {
+            border-radius: 10px; /* You can keep this */
+            max-width: 480px;
+            margin: 0 auto; /* This centers the container horizontally */
+            background-color: #555;
+            height: 500px;
+            color: white;
+            text-align: center; /* This centers the content horizontally within the container */
+        }
+  
+        .topnav {
+            position: relative;
+            top: 0px; /* Adjust this value to move the container down as needed */
+            background-color: #494545;
+            border-radius: 5px;
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow:
+                inset 0 -3em 3em rgba(22, 20, 20, 0.3),
+                0 0 0 2px rgb(19, 18, 18),
+                0.3em 0.3em 1em rgba(0, 0, 0, 0.6);
+        }
+        
+  
+  .topnav #myLinks {
+    
+  
+   
+    display: none;
+  }
+  
+  .topnav a {
+    padding-top: 500px;
+   
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav a:hover {
+    background-color: #5f5f5f;
+    color: rgb(255, 255, 255);
+    box-shadow:
+    inset 0 -3em 3em rgba(92, 143, 226, 0.3),
+    0 0 0 2px white,
+    0.3em 0.3em 1em rgba(19, 19, 20, 0.6);
+    border-radius: 5px;
+  }
+  
+  .active {
+    padding-top: 40px !important;
+   
+    background-color: #909090;
+    color: white;
+    border-radius: 5px;
+    box-shadow:
+        inset 0 -3em 3em rgba(93, 97, 104, 0.3),
+        0 0 0 2px white,
+        0.3em 0.3em 1em rgba(66, 68, 73, 0.6);
+}
+
+  .icon {
+    top:0px;
+    left:0%;
+    background-color: #fff;
+    width: 310px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center horizontally */
+    justify-content: flex-start; /* Align items to the top */
+    box-shadow:
+        inset 0 -3em 3em hsla(214, 10%, 86%, 0.3),
+        0 0 0 2px white,
+        0.3em 0.3em 1em rgba(23, 68, 247, 0.6);
+}
